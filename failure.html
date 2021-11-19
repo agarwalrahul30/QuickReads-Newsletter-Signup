@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uh-oh!</title>
+     <!-- Bootstrap core CSS -->
+     <link
+     rel="stylesheet"
+     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+     crossorigin="anonymous"
+   />
+</head>
+<body>
+
+    <div class="container py-4" style="background-color:rgb(201, 204, 209);">
+        <div class="h-100 p-5 bg-light border rounded-3">
+            <h2>Uh-oh!</h2>
+            <p>There was some error signing you up, please try again or contact the developer</p>
+            <p>Contact - 9531811281</p>
+        </div>
+        <form action="/failure" method="post">
+            <button class="btn btn-lg btn-warning" type="submit" name="button" style="margin-bottom: 2%;">Try Again</button>
+        </form>
+    </div>  
+</body>
+</html>
